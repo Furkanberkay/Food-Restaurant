@@ -1,0 +1,43 @@
+h2{
+  font-size: 2.5rem;
+}
+
+.main {
+  height: 110rem;
+  background: url(../images/hakkımızda.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  filter: blur(.5rem);
+  opacity: 0.6;
+}
+
+.box-container{
+  padding: 2% 5%;
+  position: absolute;
+  margin-top: -110%;
+}
+
+.box-container .box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 7% 0;
+}
+
+.box-container .box .image {
+  width: 40%;
+}
+
+.box-container .box .image img {
+  width: 100%;
+  border-radius: 3rem;
+}
+
+.box-container .box .image-text {
+  width: 50%;
+  text-align: justify;
+  color: white;
+
+}

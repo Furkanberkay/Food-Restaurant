@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <title>Giriş Yap</title>
+ 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <link href ="../CSS/login.css" rel='stylesheet' type='text/css' />
+    <script src="../JS/login.js"></script>
+
+</head>
+<body>
+    <div class="background">
+       
+    </div>
+    <form>
+        <h3>Giriş Yap</h3>
+
+        <label for="username">Kullanıcı Adı</label>
+        <input type="text" placeholder="Kullanıcı Adı" id="username">
+
+        <label for="password">Şifre</label>
+        <input type="password" placeholder="Şifre" id="password">
+        <p id="warning" style="visibility: hidden;">
+            Kullanıcı adı veya şifre hatalı.
+        </p>
+        <button onclick="login()" type="button">Giriş Yap</button>
+        <div class="social">
+          <a href="https://www.instagram.com/furkanberkayy/">
+            <div class="go"><a href="https://www.instagram.com/furkanberkayy/">
+              <i class="fab fa-instagram"></i>
+            </a></div>
+          </a>
+          <a href="https://twitter.com/FurkanBerkayy">
+            <div class="fb"><a href="https://twitter.com/FurkanBerkayy">
+              <i class="fab fa-twitter"></i>
+            </a></div>
+          </a>
+          <a href="https://web.snapchat.com/?ref=snapchat_dot_com_login_cta">
+            <div class="fb"><a href="https://web.snapchat.com/?ref=snapchat_dot_com_login_cta">
+              <i class="fab fa-snapchat"></i>
+            </a></div>
+          </a>
+        </div>
+    </form>
+</body>
+</html>

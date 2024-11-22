@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="../CSS/contact.css">
+    <script src="../JS/contact.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="menu">
+          <div class="logo">
+            <img src="../images/logo2.png" alt="">
+           </div>
+           <div class="logo">
+             <a href="index.html">PAYLAŞTIKÇA</a>
+           </div>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="menü.html">MENU</a></li>
+            <li><a href="contact.html"  class="active">CONTACT</a></li>
+            <li><a href="login.html">LOGİN</a></li>
+          </ul>
+        </div>
+  
+      </nav>
+    <div class="bg">
+      <div class="contact">
+          <div class="map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96240.78196455553!2d28.883684716080683!3d41.07938680048125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cab728fc42dd33%3A0x17d213078fb809f4!2zTmnFn2FudGHFn8SxIMOcbml2ZXJzaXRlc2k!5e0!3m2!1str!2str!4v1705598695837!5m2!1str!2str"
+                width="50%"
+                height="450"
+                style="border: 0; border-radius: 9rem;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+          </div>
+          <div class="info">
+            <h2>INFORMATION</h2>
+            <h4>Phone : (553) 552 84 38</h4>
+            <h4>E-Mail : furkanberkaya@live.com</h4>
+            <h4>
+              Address : Maslak Mahallesi, Taşyoncası Sokak, <br />
+              No: 1V ve No:1Y Bina Kodu: 34481742, 34398 Sarıyer/İstanbul
+            </h4>
+            <h4>Fax : (212) 565 25 25</h4>
+          </div>
+          <div class="form" id="form">
+            <h1>GET IN TOUCH</h1>
+            <form
+              class="contact-form"
+              name="myForm"
+              onsubmit="return validate()"
+            >
+              <div class="form-group">
+                <input type="text" name="Name" placeholder="Name" />
+              </div>
+              <div class="form-group">
+                <input type="text" name="Email" placeholder="E-Mail" />
+              </div>
+              <div class="form-group">
+                <input type="tel" name="Phone" placeholder="Phone" />
+              </div>
+              <div class="form-group">
+                <textarea
+                  name="Message"
+                  id="message"
+                  rows="3"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#">
+                <button class="btn">Gönder</button>
+              </a>
+            </form>
+          </div>
+        </div>
+    </div class="bg">
+      <footer>
+        <div class="box">
+          <h3>Created By Furkan Berkay Özcan</h3>
+        </div>
+      </footer>
+</body>
+</html>

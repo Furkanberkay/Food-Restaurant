@@ -1,0 +1,108 @@
+a {
+  text-decoration: none;
+}
+
+.single .box-container {
+  height: 75rem;
+  background-color: rgb(8, 8, 8);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.single .box-container .box {
+  width: 45%;
+  height: auto;
+  color: white;
+}
+
+.single .btn{
+  left: 36.7rem;
+  margin-top: 1.5%;
+  padding: 2.1%;
+  position: relative;
+  border-color: white;
+  background-color: red;
+  color: white;
+  
+
+}
+
+.single .box-container .box .image {
+  width: 100%;
+  height: 100%;
+  
+}
+
+.single .box-container .box .image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+  border: 3px solid rgb(93, 98, 99);
+}
+.single .box-container .box .small-gallery .small-images img{
+  border-radius: 2rem;
+  border-color: burlywood;
+  border: 3px solid rgb(93, 98, 99);
+}
+
+
+
+.single .box-container .box .small-gallery{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.single .box-container .box .small-gallery .small-images{
+  margin: 2%;
+}
+.single .box-container .box .small-gallery img{
+  width: 100%;
+}
+
+.single .box h2 {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.single .box p {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 2% 3%;
+}
+
+.single .box select {
+  font-size:1rem;
+  margin: 1% 0 0 2%;
+  width: 50%;
+  text-align: center;
+  border-radius: 3rem;
+  border: 3.5px solid burlywood;
+  background-color: white;
+
+}
+.single .box-container .box .small-gallery .small-images img{
+  opacity: 0.43;
+}
+
+.single .box-container .box .small-gallery .small-images img:hover{
+  opacity: 1;
+  transform: scale(1.1);
+  transition: all 0.7s;
+}
+.single .box-container .box .small-gallery .small-images img::after{
+  transition: all 1s;
+}
+
+.single .box h3 {
+  text-align: right;
+  margin-right: 3%;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+.single .box .old {
+  text-decoration: line-through;
+}
